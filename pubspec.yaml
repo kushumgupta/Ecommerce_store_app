@@ -1,0 +1,82 @@
+name: e_store
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+ #utility packages
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  lottie: ^2.7.0
+  url_launcher: ^6.1.12
+  connectivity_plus: ^5.0.1
+  flutter_native_splash: ^2.4.3
+  smooth_page_indicator: ^1.1.0
+  readmore: ^2.2.0
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^5.0.0
+ #Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+  #state management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  firebase_core: ^3.8.1
+  firebase_auth:
+  cloud_firestore:
+  google_sign_in: ^6.2.2
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/animation/
+    - assets/images/on_boarding_image/
+    - assets/images/promo_banner/
+    - assets/images/product/
+    - assets/images/user/
+    - assets/icons/
+    - assets/logos/
+    - assets/icons/categories/
+    - assets/icons/payment_method/
+    - assets/images/lottie/
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
